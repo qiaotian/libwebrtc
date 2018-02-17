@@ -15,12 +15,12 @@
  */
 
 #include <webrtc/api/peerconnectioninterface.h>
-#include <webrtc/base/ssladapter.h>
-#include <webrtc/base/thread.h>
+#include <webrtc/rtc_base/ssladapter.h>
+#include <webrtc/rtc_base/thread.h>
 
 #ifdef WIN32
-#include <webrtc/base/win32socketinit.h>
-#include <webrtc/base/win32socketserver.h>
+#include <webrtc/rtc_base/win32socketinit.h>
+#include <webrtc/rtc_base/win32socketserver.h>
 #include <Windows.h>
 #endif
 
